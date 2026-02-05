@@ -17,7 +17,7 @@
 
 Please solder these wires directly to the Raspberry Pi board if you plan to use my low-profile case.
 
-Please note: if you connect the VSYS pin from the Raspberry Pi Pico 2W to the "+" power input for the matrices, you can power both the matrices and the Raspberry Pi directly from the USB supply—no additional power source is required. The VSYS pin provides up to 5.5V.
+Please note: if you connect the **VSYS** pin from the Raspberry Pi Pico 2W to the "+" power input for the matrices, you can power both the matrices and the Raspberry Pi directly from the USB supply. No additional power source is required.
 
 The matrices are connected in series using a special cable included in the package. Please pay attention to the direction of the arrows indicating the signal flow. The Pi board must always be connected first, followed by connecting the output of the main display to the slave display.
 
@@ -32,6 +32,7 @@ The matrices are connected in series using a special cable included in the packa
 1. Copy the contents of the repository, except the Firmware folder, to your board.
 2. Edit the settings.toml file with your Wi-Fi credentials and timezone settings.
 3. Use an IDE, such as this [Online IDE](https://urfdvw.github.io/circuitpython-online-ide-2/), to customize the code.
+4. Enable the console in IDE for review the script status and log messages
 
 ## Dashboard Case
 You can get the 3D-printed model case [here](https://makerworld.com/en/models/2351992-rgb-matrix-clock-dashboard).
