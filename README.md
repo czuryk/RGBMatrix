@@ -27,6 +27,8 @@ The matrices are connected in series using a special cable included in the packa
 1. Connect the Pico 2W to your PC using a USB cable.
 2. Use the flash_nuke.uf2 file from the [vendor page](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico-2-family) to erase any previous installations on your board.
 3. Download version 10 of CircuitPython from the [official site](https://circuitpython.org/board/raspberry_pi_pico2_w/) or from this repository.
+4. Put the downloaded firmware to the board
+5. Make sure the new file structure is displayed.
 
 **Installing the demo project.**
 1. Copy the contents of the repository, except the Firmware folder, to your board.
