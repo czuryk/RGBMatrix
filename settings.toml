@@ -1,0 +1,3 @@
+WIFI_SSID="your_ssid"
+WIFI_PASSWORD="your_wifi_password"
+TZ_OFFSET=1
